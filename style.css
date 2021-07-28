@@ -1,0 +1,106 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2C2C2C;
+}
+
+#cabecalho {
+    background:  #9657A5;
+    width: 375px;
+    height: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+h1 {
+    color: #F4F4F4;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#caixa-principal {
+    background: #E5E5E5;
+    width: 375px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tipos {
+    margin-bottom: 6px;
+    color: #777;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.opcao {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 327px;
+    margin-bottom: 23px;
+    cursor: pointer;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+#info {
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#botao {
+    background: #CDD728;
+    border-radius: 25px;
+    display: block;
+    width: 327px;
+    height: 48px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 23px;
+    margin-top: 23px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F4F4F4;
+    outline: none;
+}
+
+#caixa-interna {
+    border: 1px solid #9657A5;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.caixa-menor {
+    text-align: center;
+}
+
+#seta {
+    display: block;
+    margin: 15px auto 15px auto;
+}
+
+.valores {
+    font-weight: bold;
+    font-size: 20px;
+}
