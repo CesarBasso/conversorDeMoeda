@@ -18,13 +18,13 @@
     <div id="caixa-principal">
         <p class="tipos">Converter <b>de</b></p>
         <select class="opcao" name="" id="">
-            <option value="">R$ Real Brasileiro</option>
+            <option>R$ Real Brasileiro</option>
         </select>
 
         <p class="tipos">Converter <b>para</b></p>
-        <select class="opcao" name="" id="">
-            <option value="">US$ Dólar Americano</option>
-            <option value="">€ Euro</option>
+        <select class="opcao" name="" id="selectMoedas">
+            <option>US$ Dólar Americano</option>
+            <option>€ Euro</option>
         </select>
 
         <p class="tipos">Valor</p>
@@ -34,17 +34,20 @@
             <div class="caixa-menor">
                 <img src="./images/real.png" alt="">
                 <p class="tipos">Real</p>
-                <p class="valores">R$ 10.000,00</p>
+                <p class="valores" id="valorReal">R$ 10.000,00</p>
             </div>
 
             <img id="seta" src="./images/seta.png" alt="">
 
             <div class="caixa-menor">
-                <img src="./images/dolar.png" alt="">
-                <p class="tipos">Dolár Americano</p>
-                <p class="valores">US$ 2.000,00</p>
+                <img id="bandeiraDolar" src="./images/dolar.png" alt="">
+                <p class="tipos" id="textoDolar">Dolár Americano</p>
+                <p class="valores" id="valorDolar">$ 2.000,00</p>
             </div>
         </div>
     </div>
 </body>
+
+<script src="./scripts.js"></script>
+
 </html>
